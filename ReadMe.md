@@ -47,12 +47,21 @@ or naturally
 ```
    zipi-cli unpublish example
 ```
-# More Advanced Features - Security, Caching, Definitions and Time
+# More Advanced Api Features - Security, Caching, Definitions and Time
 Zipi provides an number of advanced features covered in this section including:
 * security policies 
 * swager, raml definitions
 * caching
 * time based configuration 
+
+# Zipi Microservices 
+The Api manager is often a gateway to microservices to interact with the api manager 
+
+```
+  zipi create-microservice exampleService
+```  
+will create a base microservice. Similarly the there a number of features and plugins of the microservice that can be configured via the json config file. 
+
 
 
 
