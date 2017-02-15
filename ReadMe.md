@@ -47,12 +47,36 @@ or naturally
 ```
    zipi-cli unpublish example
 ```
-# More Advanced Api Features - Security, Caching, Definitions and Time
+# More Advanced Api Features - Security, Caching, Definitions, Plugins and Time
 Zipi provides an number of advanced features covered in this section including:
 * security policies 
 * swager, raml definitions
 * caching
 * time based configuration 
+
+## Plugins 
+Zipi manager comes with a number of standard plugins including 
+* access to (jdbc) databses including mysql, postgres etc. 
+* access to nosql databases MongoDb, Cassandra etc. 
+* access to cloud services AWS S3, Salesforce etc. 
+
+Out of the box connectors are listed via
+
+```
+   zip-cli list-connectors
+```
+we can also search for specific connectors 
+
+```
+   zipi-cli search-connector <connector name>
+```
+
+install a connector to be used via the api manager 
+
+```
+  zipi-cli install-connector <connector name>
+```
+
 
 # Zipi Microservices 
 The Api manager is often a gateway to microservices to interact with the api manager 
@@ -64,4 +88,4 @@ will create a base microservice. Similarly the there a number of features and pl
 
 
 
-
+## Zipi Microserice Plugins 
