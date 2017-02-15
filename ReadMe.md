@@ -47,7 +47,7 @@ or naturally
 ```
    zipi-cli unpublish example
 ```
-# More Features - Policies 
+# More Advanced Features - Security, Caching, Definitions and Time
 Zipi provides an number of advanced features covered in this section including:
 * security policies 
 * swager, raml definitions
